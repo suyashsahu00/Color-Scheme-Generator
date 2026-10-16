@@ -1,10 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Scheme Generator</title>
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <header>
-            <input type="color" id="seed-color">
+            <input type="color" id="seed-color" value="#000000">
             <select id="scheme-mode">
                 <option value="monochrome">Monochrome</option>
                 <option value="monochrome-dark">Monochrome-dark</option>
@@ -22,6 +26,6 @@
         <div id="copy-msg" class="copy-notification">
             
         </div>
-        <script src="index.js"></script>
+        <script type="module" src="/index.js"></script>
     </body>
 </html>
